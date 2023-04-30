@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("fondo.jpg");
+    background-size: cover;
+}
+.contenedor{
+    width: 500px;
+    background-color: rgba(90, 92, 91, 0);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-block-end: 100px;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.boton{
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid cyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+
+}
+.warnings{
+    color: red;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.contenedor .control{
+    width: 50%;
+    background-color: blue;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 10px 0;
+    font-size: 16px;
+    display: inline-block;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 4px;
+}
+.desple{
+    width: 100%;
+    font-size: 16px;
+    height: 30px;
+    padding: 0 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid cyan;
+    background-color: white;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.9);
+
+}
+.grado{
+    font-size: 16px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.todo form .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .contenedor .boton{
+    margin: 1px 0 12px 0;
+    width: calc(105% / 1 - 0px);
+}
+.genero{
+    display: flex;
+    width: 120%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+.titulosexo{
+    color: white;
+    font-size: 19px;
+}
+
